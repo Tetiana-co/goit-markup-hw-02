@@ -11,9 +11,9 @@
 
 body {
   font-family: var(--font-main);
-  font-weight: 400;
+
   font-size: 16px;
-  line-height: 1.5;
+
   color: var(--slate);
   background-color: var(--white);
   letter-spacing: 0.02em;
@@ -26,9 +26,9 @@ body {
 
 .logo {
   font-family: var(--font-accent);
-  font-weight: 700;
+
   font-size: 18px;
-  line-height: 1.17;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -45,9 +45,9 @@ body {
 
 .nav-link {
   text-decoration: none;
-  font-weight: 500;
+
   font-size: 16px;
-  line-height: 1.5;
+
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
@@ -68,8 +68,7 @@ body {
 .contact-link {
   text-decoration: none;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+
   color: var(--slate);
 }
 
@@ -85,8 +84,7 @@ body {
 
 .hero-title {
   font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
+
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -94,13 +92,12 @@ body {
 .hero-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  text-align: center;
 }
 
 .hero-button:hover,
@@ -114,8 +111,7 @@ body {
 
 .section_title {
   font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
+
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -127,20 +123,18 @@ body {
 
 .team_item {
   background-color: #ffffff;
-  text-align: center;
 }
 
 .team_name {
-  font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .team_role {
   font-size: 16px;
-  line-height: 1.5;
+
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -151,7 +145,7 @@ body {
 
 .section_title {
   font-size: 36px;
-  line-height: 1.11;
+
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -163,16 +157,15 @@ body {
 }
 
 .project_title {
-  font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .project_category {
   font-size: 16px;
-  line-height: 1.5;
+
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -189,9 +182,9 @@ body {
 /* Logo styles */
 .site-logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
+
   font-size: 18px;
-  line-height: 1.17;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -205,7 +198,6 @@ body {
 
 /* Paragraph inside footer */
 .footer-text {
-  line-height: 1.5;
   color: var(--footer-text-color);
   letter-spacing: 0.02em;
 }
