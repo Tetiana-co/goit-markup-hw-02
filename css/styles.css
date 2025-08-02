@@ -20,10 +20,16 @@ a {
 }
 
 .header-logo .logo-part {
-  color: #2e2f42;
+  font: 700 18px / 1.17 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .footer-logo .logo-part {
+  font: 700 18px / 1.17 "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
 
@@ -51,7 +57,7 @@ a {
   color: #404bbf;
 }
 
-.hero-section {
+.hero {
   background-color: #2e2f42;
 }
 
