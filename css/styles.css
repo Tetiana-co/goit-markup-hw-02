@@ -68,6 +68,13 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+  color: #fff;
 }
 
 .hero-title {
@@ -95,6 +102,10 @@ a {
   color: #434455;
 }
 
+.page-team {
+  background-color: #f4f4fd;
+}
+
 .team_title {
   font-weight: 700;
   font-size: 36px;
@@ -102,6 +113,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team_name {
@@ -121,9 +133,15 @@ a {
   text-align: center;
   color: #434455;
 }
-.team {
+
+.team_item {
+  background-color: #fff;
+}
+
+.page-portfolio {
   background-color: #f4f4fd;
 }
+
 .portfolio_title {
   font-weight: 700;
   font-size: 36px;
@@ -131,6 +149,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .project_title {
   font-weight: 500;
